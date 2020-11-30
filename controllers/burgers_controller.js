@@ -5,4 +5,9 @@ router.get("/", function(req, res){
         res.render("index", {burgers:data});
     });
 });;
+
+
+// create new burger
+
+
 module.exports = router;
