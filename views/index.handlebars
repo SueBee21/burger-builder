@@ -17,32 +17,39 @@
 
         </div>
         <div class="col-sm-4">
-            <h2>Order Up!</h2>
+            <h2 class="bun">Order Up!</h2>
             <ul>
                 {{#each burgers}}
                 {{#unless devoured}}
                 <li>
-                    {{burger_name}} <button class="devour-burger">Eat da Burger!</button>
+                    <div class="burger-patty">
+                        {{burger_name}} <button class="devour-burger">Eat da Burger!</button>
+                    </div>
                 </li>
+
                 {{/unless}}
                 {{/each}}
             </ul>
+            <h2 class="bun">Ready to eat!</h2>
             <br>
             <img src="../public/assets/images/3-2-burger-free-png-image.png" alt="Burger" width="1000" height="1000">
 
 
         </div>
         <div class="col-sm-4">
-            <h2>Devoured</h2>
+            <h2 class="bun">Devoured</h2>
             <ul>
                 {{#each burgers}}
                 {{#if devoured}}
                 <li>
-                    {{burger_name}}
+                    <div class="burger-patty">
+                        {{burger_name}}
+                    </div>
                 </li>
                 {{/if}}
                 {{/each}}
             </ul>
+             <h2 class="bun">Yum Yum!</h2>
 
 
         </div>

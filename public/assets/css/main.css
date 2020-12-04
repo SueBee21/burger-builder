@@ -6,3 +6,18 @@ h2 {
     text-align: center;
     font-family: Monaco, monospace;
 }
+
+.burger-patty {
+    border: solid;
+    border-width: thin;
+    border-radius: 25px;
+    background-color: hsl(26, 99%, 63%);
+}
+
+.bun {
+    border: solid;
+    border-width: thin;
+    border-radius: 25px;
+    background-color: #f5da0e;
+}
+
