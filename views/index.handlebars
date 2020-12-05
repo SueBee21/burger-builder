@@ -16,9 +16,12 @@
             </form>
 
         </div>
+
         <div class="col-sm-4">
             <h2 class="bun">Order Up!</h2>
-            <ul>
+                    <div class="lettuce"> </div>
+                    <div class="tomato"> </div>
+            <ul class="no-bullets">
                 {{#each burgers}}
                 {{#unless devoured}}
                 <li>
@@ -37,7 +40,9 @@
         </div>
         <div class="col-sm-4">
             <h2 class="bun">Devoured</h2>
-            <ul>
+             <div class="lettuce"> </div>
+                    <div class="tomato"> </div>
+            <ul class="no-bullets"> 
                 {{#each burgers}}
                 {{#if devoured}}
                 <li>

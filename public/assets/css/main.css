@@ -5,14 +5,16 @@ h1 {
 h2 {
     text-align: center;
     font-family: Monaco, monospace;
+
 }
 
 .burger-patty {
     border: solid;
     border-width: thin;
     border-radius: 25px;
-    background-color: hsl(26, 99%, 63%);
+    background-color: hsl(26, 87%, 12%);
     text-align: center;
+    color: white;
 }
 
 .bun {
@@ -21,9 +23,25 @@ h2 {
     border-radius: 25px;
     background-color: #f5da0e;
     text-align: center;
+    height: 50px;
 }
 
 body {
     background-color: rgb(178, 226, 252);
+}
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+  
+.lettuce {
+    background-color: green;
+    border: solid;
+    height: 20px;
+}
+.tomato {
+    background-color: red;
+    height: 20px;
 }
 
