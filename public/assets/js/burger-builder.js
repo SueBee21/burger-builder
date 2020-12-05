@@ -2,10 +2,9 @@
 $(function() {
     $(".devour-burger").on("click", function (event) {
         var id = $(this).data("id");
-        var newDevoured = $(this).data("newDevoured");
 
         var newDevouredList = {
-            devoured: newDevoured
+            devoured: 1
         };
 
 
@@ -14,7 +13,7 @@ $(function() {
             data: newDevouredList
         }).then(
             function () {
-                console.log("burger is devoured", newDevoured);
+                console.log("burger is devoured");
                 location.reload();
             }
         );
@@ -23,7 +22,8 @@ $(function() {
     $(".create-form").on("submit", function (event) {
         event.preventDefault();
         var newBurgerList = {
-            name: $("#new").val().trim(),
+            burger_name: $("#new").val().trim(),
+            devoured: 0
         };
 
         // Send the POST request.

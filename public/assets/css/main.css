@@ -12,6 +12,7 @@ h2 {
     border-width: thin;
     border-radius: 25px;
     background-color: hsl(26, 99%, 63%);
+    text-align: center;
 }
 
 .bun {
@@ -19,5 +20,6 @@ h2 {
     border-width: thin;
     border-radius: 25px;
     background-color: #f5da0e;
+    text-align: center;
 }
 
